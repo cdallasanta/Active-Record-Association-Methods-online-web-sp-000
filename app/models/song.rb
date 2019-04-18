@@ -10,3 +10,5 @@ class Song < ActiveRecord::Base
     self.artist = Artist.find_by(name:"Drake")
   end
 end
+
+thriller.drake_make_this
